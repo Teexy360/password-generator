@@ -1,0 +1,191 @@
+/*PATTERNS*/
+/*PATTERNS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F8FAFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+
+/*TITLE*/
+/*TITLE*/
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title > h1{
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.title > p{
+  color: gray;
+  font-family: "Oswald", sans-serif;
+}
+
+
+/*PASSWORD VIEWER*/
+/*PASSWORD VIEWER*/
+
+
+.passwordRandom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 10px 10px 0px 0px;
+  height: 65px;
+  align-items: center;
+  background-color: white;
+}
+
+.password{
+  width: 85%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.password > h2{
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+
+
+/*BUTTON COPY & BUTTON RELOAD*/
+/*BUTTON COPY & BUTTON RELOAD*/
+
+
+.copyPassword{
+  width: 15%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy{
+  font-size: 19.5px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.copy-verified{
+  display: none;
+  font-size: 19.5px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.reload{
+  font-size: 23px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+
+/*QUALITY PASSWORD*/
+/*QUALITY PASSWORD*/
+
+
+.securityColor{
+  height: 6px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #E7E7E7;
+}
+
+.color{
+  height: 6px;
+  border-radius: 0px 0px 10px 10px;
+  width: 0%;
+  transition: width 1s ease-in-out;
+}
+
+
+/*PASSWORD SIZE*/
+/*PASSWORD SIZE*/
+
+
+.passwordOptions{
+  background-color: white;
+  margin-top: 35px;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.personalize{
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 13px ;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.passwordSize{
+  height: 100px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.size{
+  width: 75%;
+}
+
+.size > input{
+  width: 100%;
+  height: 10px;
+}
+
+.size > label{
+  color: gray;
+  font-family: "Oswald", sans-serif;
+  display: block;
+  margin-bottom: 7px;
+}
+
+
+/*CHECKS BOXS*/
+
+
+.options{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.options > div{
+  width: 90px;
+  color: gray;
+  font-family: "Oswald", sans-serif;
+  user-select: none;
+  padding: 4px 0px 4px 0px;
+}
+
+.checkbox{
+  transform: scale(1.2);
+  margin: 1px 5px 1px 1px;
+}
